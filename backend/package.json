@@ -1,0 +1,16 @@
+{
+  "name": "scalesim-backend",
+  "version": "1.0.0",
+  "description": "Node + Express simulation engine for the auto-scaling and load balancing simulator",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node tests/test_simulator.js && node tests/test_api.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
